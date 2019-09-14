@@ -1,0 +1,21 @@
+name: KeepChunks
+version: 1.0.0
+api-version: 1.12.0
+description: prevent your chunks from being unloaded
+author: Hake
+website: https://www.test.org
+load: POSTWORLD
+
+softdepend: []
+
+main: com.hake.keepchunks.Main
+
+commands:
+  keepchunks:
+    description: Keep chunks loaded.
+  kc:
+    description: Keep chunks loaded.
+
+permissions:
+  keepchunks.help:
+    default: op
